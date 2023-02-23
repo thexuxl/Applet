@@ -5,7 +5,7 @@ class App extends Component<PropsWithChildren> {
 
   componentDidMount() { }
 
-  componentDidShow() { }
+  componentDidShow() { console.log("ceshi") }
 
   componentDidHide() {
     console.log("ceshi")
